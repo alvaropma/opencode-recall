@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /Users/alvaropma/opencode/tools/recall && uv run python recall.py "$@"

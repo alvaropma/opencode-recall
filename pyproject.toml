@@ -1,0 +1,13 @@
+[project]
+name = "opencode-recall"
+version = "0.1.0"
+description = "Full-text search your OpenCode conversations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyperclip>=1.11.0",
+    "textual>=8.2.4",
+]
+
+[project.scripts]
+recall = "recall:main"
