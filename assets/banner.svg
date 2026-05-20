@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6a0dad"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="4" height="200" fill="url(#accent)" rx="2"/>
+  <text x="60" y="115" font-size="64" font-family="monospace">🔍</text>
+  <text x="150" y="88" font-family="monospace" font-size="46" font-weight="bold" fill="white">opencode-recall</text>
+  <text x="152" y="122" font-family="monospace" font-size="18" fill="#8b949e">full-text search your OpenCode conversations. resume instantly.</text>
+  <text x="152" y="155" font-family="monospace" font-size="14" fill="#a855f7">$ recall</text>
+  <text x="152" y="173" font-family="monospace" font-size="13" fill="#3fb950">  Search: postgres timeout  ▌</text>
+</svg>
